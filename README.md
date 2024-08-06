@@ -22,3 +22,27 @@ URDUx Doc-Chat is a cutting-edge document interaction tool that leverages the po
 
 - Python 3.7+
 - Google API key for Generative AI
+
+## 🚀 Quick Start
+
+1. Install dependencies:
+`pip install -r requirements.txt`
+
+3. Set your Google API key in a `.env` file:
+`GOOGLE_API_KEY=your_api_key_here`
+
+4. Run the app:
+`streamlit run app.py`
+
+5. Upload PDFs, process them, and start asking questions!
+
+
+## 🎯 How It Works
+
+1. **Document Upload**: Users upload PDF files through the Streamlit interface.
+2. **Text Extraction**: PyPDF2 extracts text from the uploaded PDFs.
+3. **Text Chunking**: The extracted text is split into manageable chunks.
+4. **Embedding Generation**: Google's Generative AI creates embeddings for the text chunks.
+5. **Vector Storage**: FAISS stores and indexes the embeddings for quick retrieval.
+6. **Question Processing**: User questions are processed and matched against the stored embeddings.
+7. **Answer Generation**: The AI model generates detailed answers based on the relevant text chunks.

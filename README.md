@@ -1,6 +1,6 @@
-# URDUx Doc-Chat 👁‍🗨
+# URDUx DocPal 👁‍🗨
 
-URDUx Doc-Chat is a cutting-edge document interaction tool that leverages the power of AI to revolutionize how you extract information from PDF documents. Say goodbye to endless scrolling and hello to instant, accurate answers!
+URDUx DocPal is a cutting-edge document interaction tool that leverages the power of AI to revolutionize how you extract information from PDF documents. Say goodbye to endless scrolling and hello to instant, accurate answers!
 
 ## 🚀 Features
 
